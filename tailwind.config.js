@@ -11,6 +11,9 @@ module.exports = {
 				strangerGreen : '#073e1e',
 				strangerBlack : '#1e0707',
 				strangerDark : '#1e193c'
+			},
+			fontFamily:{
+				strange : 'custom'
 			}
 		},
 	},
