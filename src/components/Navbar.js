@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
-import Image from "next/image";
-import SRISTI_LOGO from "@/assets/svg/sristi_logo.svg"
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false)
 	function toggleOpen() {

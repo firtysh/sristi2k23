@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import { useEffect } from 'react'
+import Events from '@/components/Events'
 export default function Home() {
 	function handleMusic(){
 		try{
@@ -27,6 +28,7 @@ export default function Home() {
 			<Navbar />
 			<Hero/>
 			<About/>
+			<Events/>
 		</>
 	)
 }

@@ -14,7 +14,7 @@ module.exports = {
 			},
 			fontFamily:{
 				strange : 'custom'
-			}
+			},
 		},
 	},
 	plugins: [],
