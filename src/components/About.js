@@ -1,11 +1,11 @@
 export default function About() {
 	return (
 		<>
-			<section id="about" className="bg-strangerBlack p-6 bg-gradient-to-b from-strangerBlack to-strangerDark">
-				<h3 className="text-strangerRed font-strange text-lg mb-3 ">
+			<section id="about" className="p-6 bg-gradient-to-b from-strangerBlack to-strangerDark">
+				<h3 className="mb-3 text-lg md:text-3xl text-strangerRed font-strange ">
 					<span className="underline underline-offset-4">About</span> <span className="underline underline-offset-4">Sristi</span>
 				</h3>
-				<div className="text-white space-y-3 text-justify">
+				<div className="space-y-3 text-justify text-white">
 					<div>
 						<strong>SRISTI</strong> is the annual techno-management extravaganza of <strong>Jalpaiguri Government Engineering College</strong>, renowned for its technical expertise since 1961. Started in 2010, SRISTI has become the largest event of its kind in North Bengal and one of the college&#39;s most celebrated achievements.
 					</div>

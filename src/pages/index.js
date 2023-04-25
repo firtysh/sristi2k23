@@ -4,10 +4,12 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import { useEffect } from 'react'
 import Events from '@/components/Events'
+import Sponsors from '@/components/Sponsors'
+import Team from '@/components/Team'
 export default function Home() {
 	function handleMusic(){
 		try{
-		// 	document.getElementById('music').play()
+			// document.getElementById('music').play()
 		}catch(e){
 			// document.getElementById('music').play()
 		}
@@ -29,6 +31,8 @@ export default function Home() {
 			<Hero/>
 			<About/>
 			<Events/>
+			<Sponsors/>
+			<Team/>
 		</>
 	)
 }

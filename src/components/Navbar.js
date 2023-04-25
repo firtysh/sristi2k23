@@ -8,11 +8,11 @@ export default function Navbar() {
 	}
 	return (
 		<>
-			<nav className="fixed w-full bg-strangerBlack p-6 flex flex-row items-center justify-between z-40 max-h-20" >
+			<nav className="fixed z-40 flex flex-row items-center justify-between w-full p-6 bg-strangerBlack max-h-20" >
 				<div className="text-strangerRed">
-					<Link href="/" className="font-strange font-bold"><span className="text-lg md:text-xl">S</span><span className="align-top md:text-lg">RIST</span><span className="text-lg md:text-xl">I</span></Link>
+					<Link href="/" className="font-bold font-strange"><span className="text-lg md:text-3xl">S</span><span className="align-top md:text-2xl">RIST</span><span className="text-lg md:text-3xl">I</span></Link>
 				</div>
-				<ul className="text-white md:flex space-x-5	text-lg hidden">
+				<ul className="hidden space-x-5 text-lg text-white md:flex">
 					<li className="hover:text-strangerRed">
 						<Link href="#home" >Home</Link>
 					</li>
@@ -30,7 +30,7 @@ export default function Navbar() {
 					</li>
 				</ul>
 				{isOpen ? <div className="md:hidden text-strangerRed" onClick={toggleOpen}> <AiOutlineClose /> </div> : <div className="md:hidden text-strangerRed" onClick={toggleOpen}> <AiOutlineMenu /> </div>}
-				{isOpen ? <ul className="absolute bg-strangerDark left-0 h-screen top-0  w-screen flex items-center justify-center flex-col -z-10 isolate text-strangerRed font-bold space-y-3">
+				{isOpen ? <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-screen h-screen space-y-3 font-bold bg-strangerDark -z-10 isolate text-strangerRed">
 					<li className="">
 						<Link href="#home" onClick={toggleOpen}>Home</Link>
 					</li>
