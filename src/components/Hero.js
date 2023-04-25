@@ -10,7 +10,7 @@ export default function Hero(){
 			</div>
 			<section id="" className="relative  min-h-[30vh] max-h-[50vh] h-[40vh]  bg-transparent flex flex-col items-center justify-between overflow-hidden" >
 				<video autoPlay loop muted className="fixed object-cover object-center w-full h-[inherit] -z-10 isolate scale-110 brightness-75 blur-sm">
-					<source src='/video/LoathsomeColorlessFlee.mp4'/>
+					<source src='/video/vid.mp4'/>
 				</video>
 				<div className="flex flex-col items-center justify-between h-full p-6">
 					<div className="text-xs font-bold text-center text-white md:text-lg">
