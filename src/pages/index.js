@@ -9,9 +9,9 @@ import Team from '@/components/Team'
 export default function Home() {
 	function handleMusic(){
 		try{
-			// document.getElementById('music').play()
+			document.getElementById('music').play()
 		}catch(e){
-			// document.getElementById('music').play()
+			document.getElementById('music').play()
 		}
 	}
 	useEffect(()=>{
